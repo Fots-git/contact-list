@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useRef, useState } from "react";
-import apiData from "../api";
+import apiData from "../data/api";
 
 export type Contact = {
   id: string | number;

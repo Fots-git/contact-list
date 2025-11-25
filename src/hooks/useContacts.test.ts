@@ -1,10 +1,10 @@
 import { waitFor } from "@testing-library/dom";
 import "@testing-library/jest-dom";
 import { act, renderHook } from "@testing-library/react";
-import apiData from "../api";
+import apiData from "../data/api";
 import { Contact, useContacts } from "./useContacts";
 
-jest.mock("../api", () => ({
+jest.mock("../data/api", () => ({
   __esModule: true,
   default: jest.fn(),
 }));
